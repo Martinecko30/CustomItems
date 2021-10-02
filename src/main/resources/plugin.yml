@@ -1,0 +1,19 @@
+name: CustomItems
+version: '${project.version}'
+main: io.github.martinecko30.customitems.CustomItems
+api-version: 1.17
+authors: [ Martinecko30 ]
+description: Custom Items for your server
+website: https://github.com/Martinecko30/CustomItems
+
+commands:
+  ci:
+    aliases: customitems
+
+permissions:
+  ci.*:
+    default: op
+    children:
+      ci.use: true
+      ci.reload: true
+      ci.give: true

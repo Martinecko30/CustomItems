@@ -1,0 +1,14 @@
+items:
+  #default-item
+  #Showcase only!
+  #Add stats only when you're using a weapon or tools
+  default_item:
+    material: STICK
+    name: "&fDefault Item"
+    lore:
+      - "&6&lDefault Item"
+    enchantments:
+      - VANISHING_CURSE;1
+    stats:
+      #Can't set durability more than max durability on the item
+      durability: 500

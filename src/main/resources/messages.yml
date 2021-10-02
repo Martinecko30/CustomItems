@@ -1,0 +1,3 @@
+no-permission: "@c@lSorry but you don't have permission to do this!"
+unknown-item: "@c@lUnknown item name!"
+no-item-name: "@c@lYou you have to enter item name!"
